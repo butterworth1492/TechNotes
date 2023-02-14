@@ -491,12 +491,12 @@ Parent class
 >>>     return f"Name: {self.name} Age:{self.age}"
 
 >>>   @classmethod  # For creating factory methods
->>>    def default_person(cls):
->>>      return cls("Jane", 32)
+>>>   def default_person(cls):
+>>>     return cls("Jane", 32)
 
 >>>   @staticmethod
->>>    def static_method():
->>>      print("Notice the missing 'self'?")
+>>>   def static_method():
+>>>     print("Notice the missing 'self'?")
 
 >>>   def stub(self):
 >>>     pass
