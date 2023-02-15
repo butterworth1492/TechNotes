@@ -34,6 +34,33 @@ world/europe
     # ‘spain’ subpackage imported
 ```
 
+# Loops / Conditionals
+```
+>>> while True:
+>>>   do_something()
+```
+
+```
+>>> if True:
+>>>   do_something()
+>>> elif False:
+>>>   do_something_else()
+>>> else:
+>>>   give_up()
+```
+
+```
+>>> for i in range(0,5):
+>>>   print(i)
+```
+
+```
+>>> for l in "bigstring":
+>>>   print(l, end='')
+```
+
+
+
 # Situational Awareness
 
 Module name.  (The name of the file by default)
