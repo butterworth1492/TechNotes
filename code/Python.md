@@ -505,6 +505,7 @@ print(s)
 Parent class
 ```
 >>> class Person:
+>>>   __private_variable = None
 
 >>>   def __init__(self,name,age):
 >>>     self.name = name
@@ -516,6 +517,9 @@ Parent class
 
 >>>   def __str__(self):
 >>>     return f"Name: {self.name} Age:{self.age}"
+
+>>>   def __private_method(self):
+>>>     pass
 
 >>>   @classmethod  # For creating factory methods
 >>>   def default_person(cls):
